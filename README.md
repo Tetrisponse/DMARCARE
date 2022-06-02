@@ -53,3 +53,9 @@ python3 dmarcare.py -f /path/to/domain_name_list.txt -o /path/to/output
 ```
 ## License
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+## Exemples:
+
+![Screenshot from 2022-06-01 20-47-47](https://user-images.githubusercontent.com/104491821/171642335-8c61703b-55fb-445f-b989-cdad3a7b2fe7.png)
+![Screenshot from 2022-06-01 20-46-58](https://user-images.githubusercontent.com/104491821/171642382-73b1cc41-fbc0-4f47-b80d-b40d765fee88.png)
+
