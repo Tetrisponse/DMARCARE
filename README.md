@@ -5,9 +5,9 @@ The DMARCARE is the tool that cares about your DMARC!
 DMARCARE is a python written tool that can extract the DMARC record from a specified domain 
 and tell:
 
--it is possible to spoof the domain.
+-if it is possible to spoof the domain.
 
--what are the chances for attackers of success in spoofing the domain.
+-what are the chances for attackers to succeed in spoofing the domain or the subdomain.
 
 -what are the chances of monitoring any spoofing try.
 
@@ -15,11 +15,17 @@ and tell:
 
 -the reason for the failure report to be sent.
 
-## how DMARCARE works?
+## How does DMARCARE work?
 The DMARCARE works by getting the DMARC records with the "pydig" library.
-First, he validates the DMARC record. Then he analyzes the tag and responds accordingly.
 
-He knows how to extract domain names from URLs, so you won't have to worry about that ;-)
+At first, he validates the DMARC. After the DMARC was found and validated. He analyzes the tag and responds accordingly.
+
+He also knows how to extract domain names from URLs, so you won't have to worry about that ;-)
+## Supported Operating Systems:
+* Debian Linux OS
+* The tool Was tested on Ubuntu 20.04\Kali Linux 2022.1
+## Supported Python versions:
+* Python 3.5v or higher.
 
 ## Installation
 
