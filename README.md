@@ -23,10 +23,9 @@ and tell:
 git clone https://github.com/Tetrisponse/DMARCARE.git
 cd DMARCARE
 pip3 install -r requirements.txt
-''''
-'''bash
+```
 ## Usage
-
+```bash
 python3 dmarcare.py -h 
 [will show help message and exit.]
 
@@ -38,7 +37,6 @@ python3 dmarcare.py -f /path/to/domain_name_list.txt
 
 python3 dmarcare.py -f /path/to/domain_name_list.txt -o /path/to/output
 [will extract and analyze the DMARC record of any domain in the specified list and saves the output.]
-'''
 
 ```
 ## how DMARCARE works?
