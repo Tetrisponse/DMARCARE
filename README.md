@@ -15,6 +15,10 @@ and tell:
 
 -the reason for the failure report to be sent.
 
+## how DMARCARE works?
+The DMARCARE works by getting the DMARC records with the "pydig" library.
+First, he validates the DMARC record. Then he analyzes the tag and responds accordingly. He knows how to extract domain names from URLs, so you won't have to worry about that ;-)
+
 ## Installation
 
 
@@ -39,8 +43,5 @@ python3 dmarcare.py -f /path/to/domain_name_list.txt -o /path/to/output
 [will extract and analyze the DMARC record of any domain in the specified list and saves the output.]
 
 ```
-## how DMARCARE works?
-The DMARCARE works by getting the DMARC records with the "pydig" library. First, he validates the DMARC record. Then he analyzes the tag and responds accordingly. He knows how to extract domain names from URLs, so you won't have to worry about that ;-)
-
-
-
+## License
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
