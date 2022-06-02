@@ -17,7 +17,9 @@ and tell:
 
 ## how DMARCARE works?
 The DMARCARE works by getting the DMARC records with the "pydig" library.
-First, he validates the DMARC record. Then he analyzes the tag and responds accordingly. He knows how to extract domain names from URLs, so you won't have to worry about that ;-)
+First, he validates the DMARC record. Then he analyzes the tag and responds accordingly.
+
+He knows how to extract domain names from URLs, so you won't have to worry about that ;-)
 
 ## Installation
 
